@@ -1,0 +1,46 @@
+@import "color.css";
+@import "common.css";
+@import "header.css";
+@import "navbar.css";
+@import "aside.css";
+@import "contenido.css";
+@import "footer.css";
+
+
+@media  screen and (max-width: 700px) { /*PARA QUE QUEDE CENTRADO EN CAMBIO DE PANTALLA*/
+    .navbar, .contenedor, .tabla, .row{
+        flex-direction: column;
+    }
+}
+header{
+    padding: 60px;
+    text-align:left;
+    color: white;
+    
+}
+body{
+    background-image: url(../img/records.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contenedor{
+    display: flex; /*TRABAJANMOS CON FLEX*/
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.4);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.tabla{
+    background-color: rgba(0,0,0, 0.6);
+    color: white;
+}
+.tabla thead{
+    background-color: #302b63;
+    color: white;
+}

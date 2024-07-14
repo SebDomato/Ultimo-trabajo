@@ -1,0 +1,108 @@
+/**{
+    font-family: verdana;
+    margin: 0;
+    padding: 0px;
+}*/
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+header{
+    background-color: black; /*COLOR DE FONDO*/
+    color: white; /*COLOR DE LETRA*/
+    width: 100%; /*LARGO DEL HEADER 100% TODO EL LARGO*/
+    left: 0; /*POCICION DEL HEADER QUE COMIENCE DESDE 0*/
+}
+.nav{
+    background-color: gray;
+    color: white; /*color de letra*/
+    border-radius: 5px; /*bordes redondeados de los botones*/
+    margin: 5px;
+    padding: 5px; /*relleno de fondo*/
+    text-decoration: none; /*para sacar la linea de abajo*/
+    font-size: 1vw;
+}
+footer{
+    background-color: black;
+    text-align: center; /*letras centradas*/
+    margin-top: 0; /*margen parte de arriva*/
+    color: white;
+    position: fixed; /*POSICION DEL FOOTER FIJA CUANDO CORRE LA PAGINA PARA ABAJO*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 20px; /*RELLENO TIPO MARGEN DE ARRIVA, ABAJO, ISQ Y DERECHA 20PX*/
+}
+.ImageIndex{
+    width:40%;
+}
+.RedesSociales{
+    color: white;
+    font-size: 1.5vw;
+    text-align: center;
+    margin: 0px 6px;
+    font-size: 2vw;
+    
+
+}
+/*.RedesSociales a{
+    color: black;
+    margin: 0px 12px;
+    font-size: 2vw;
+}
+.RedesSociales a:hover{
+    color: grey;
+    
+}*/
+/*------------------------------------------------------*/
+h3{
+    font-size: 1.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+    font-size: 1.0vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*FORMULARIOS*/
+label, input{
+    font-size: 1.0vw;
+    font-family: Arial, Helvetica, sans-serif
+}
+input[type=text], input[type=password],
+input[type=date], input[type=email],
+input[type=number], input[type=url], 
+input[type=textArea] {
+    width: 50%;
+    padding: 5px;
+    margin: 1vw;
+    display: inline;
+    /*border: 1vw;*/
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=radio]{
+    font-size: 1.0vw;
+    font-family: Arial, Helvetica, sans-serif
+}
+input[type=sumit]{
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=sumit]:hover {
+    background-color: green;
+}
+.form {
+    border-radius: 5px;
+    background-color: grey;
+    padding: 2%;
+    margin: 1% 20%;
+}
+    
+

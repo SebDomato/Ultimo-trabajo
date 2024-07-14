@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="stylesheet" href="form3.css">
+        <title>Formulario de Registro</title>
+        <style>
+        body{
+            background-image: url(assets/images/Dante-HiFi.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            } 
+        </style>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </head>
+<body>
+
+    <form method="post" id="myForm" onsubmit="return postUser(event)">
+        <section class="form-register">
+        
+            <h4>Formulario de Registro</h4>
+            <input class="controls" type="text" name="nombre" id="nombres" placeholder="Ingrese su Nombre">
+            <input class="controls" type="text" name="edad" id="edad" placeholder="Ingrese su Edad">
+            <input class="controls" type="text" name="username" id="username" placeholder="Ingrese su Username">
+            <input class="controls" type="text" name="imagen" id="imagen" placeholder="Ingrese su Imagen">
+        
+            <p>Estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
+        
+            <div class="controls">
+                <button id="btnSubmit" type="submit" class="ud-main-btn">
+                    Registrar
+                </button>
+            </div>
+
+            <p><a href="blog.html">Listado</a></p>
+
+            <p><a href="#">¿Ya Tengo cuenta?</a></p>
+
+        </section>
+    </form>    
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
